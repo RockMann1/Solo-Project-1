@@ -5,13 +5,15 @@
 <%@ page isErrorPage="true" %>
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" />
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
 <body>
 
-<div class="container d-display-flex p-3 my-3 bg-light text-black ">
+<div class="container d-display-flex p-3 my-3 bg-light text-dark ">
+
 	<h1 class="text-primary"><c:out value="${task.name}"/></h1>
 	<br>
 	<p><a href="/home">Dashboard</a></p>
